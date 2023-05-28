@@ -1,0 +1,198 @@
+@media screen and (max-width: 630px){
+    header{
+        padding: 0;
+    }
+    header .right-header{
+        padding: 0 !important;
+    }
+    .theme-btn{
+        width: 40px;
+        height: 40px;
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 5rem;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .header-content .left-header .image{
+        margin: 1rem 1.3rem;
+        width: 90;
+        height: 100%;
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+            .about-item{
+                width: 20rem;
+            }
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+    .section{
+        padding: 1rem 2.5rem !important;
+    }
+    .progress-bars{
+        grid-template-columns: 1fr !important;
+    }
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .portfolios{
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem;
+
+    }
+    .blogs-container {
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem;
+    }
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control{
+            margin: 0.5rem 0.3rem;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .main-title{
+        h2{
+            font-size: 1.5rem;
+            span{
+                font-size: 2rem;
+            }
+            .bg-text{
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 900px){
+    .contact-content-con{
+        flex-direction: column;
+        margin-bottom: 6rem;
+        .right-con{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact-content-con .right-con .i-c-2 {
+        flex-direction: column;
+    }
+    .contact-content-con .right-con .i-c-2 :last-child {
+        margin-left: 0;
+        margin-top: 1.3rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .blogs-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .portfolios{
+        grid-template-columns: 1fr 1fr;
+    }
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control{
+            margin: 0.5rem 0.3rem;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    header{
+        padding: 0;
+    }
+    header .right-header{
+        padding: 3rem 4rem !important;
+    }
+    .theme-btn{
+        width: 40px;
+        height: 40px;
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 5rem;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .header-content .left-header .image{
+        margin: 0rem 7rem;
+        width: 90;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .blogs-container{
+        grid-template-columns: 1fr;
+    }
+    .portfolios{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 800px){
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+            .about-item{
+                width: 20rem;
+            }
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+}
